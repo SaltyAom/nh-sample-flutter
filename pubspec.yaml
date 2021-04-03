@@ -1,0 +1,32 @@
+name: nhentai_sample
+description: A simple nHentai app using opener studio API
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_hooks: ^0.16.0
+
+  bloc: ^7.0.0
+  flutter_bloc: ^7.0.0
+
+  hive: ^2.0.2
+  hive_flutter: ^1.0.0
+
+  graphql_flutter: ^5.0.0-nullsafety.1
+
+  niku: ^1.0.0-alpha.4
+
+  equatable: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
